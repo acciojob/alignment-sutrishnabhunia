@@ -1,16 +1,90 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>HTML Table Example</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <h1>HTML Table Example</h1>
+    
+    <h2>Table 1</h2>
+    <table id="table-1" class="middle">
+        <tr>
+            <td id="t11">Cell 1</td>
+            <td class="center">Cell 2</td>
+            <td class="right">Cell 3</td>
+        </tr>
+        <tr>
+            <td id="t12">Cell 4</td>
+            <td class="center">Cell 5</td>
+            <td class="right">Cell 6</td>
+        </tr>
+        <tr>
+            <td id="t13">Cell 7</td>
+            <td class="center">Cell 8</td>
+            <td class="right">Cell 9</td>
+        </tr>
+    </table>
+    
+    <h2>Table 2</h2>
+    <table id="table-2" class="middle">
+        <tr>
+            <td id="t21" colspan="6">First Row</td>
+        </tr>
+        <tr>
+            <td rowspan="5">Column 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+            <td>Cell 4</td>
+            <td>Cell 5</td>
+            <td>Cell 6</td>
+        </tr>
+        <tr>
+            <td>Cell 7</td>
+            <td>Cell 8</td>
+            <td>Cell 9</td>
+            <td>Cell 10</td>
+            <td>Cell 11</td>
+        </tr>
+        <tr>
+            <td>Cell 12</td>
+            <td>Cell 13</td>
+            <td>Cell 14</td>
+            <td>Cell 15</td>
+            <td>Cell 16</td>
+        </tr>
+        <tr>
+            <td>Cell 17</td>
+            <td>Cell 18</td>
+            <td>Cell 19</td>
+            <td>Cell 20</td>
+            <td>Cell 21</td>
+        </tr>
+        <tr>
+            <td>Cell 22</td>
+            <td>Cell 23</td>
+            <td>Cell 24</td>
+            <td>Cell 25</td>
+            <td>Cell 26</td>
+        </tr>
+    </table>
+    
+    <h2>Table 3</h2>
+    <table id="table-3" class="middle">
+        <tr>
+            <td class="blue">First Row</td>
+            <td>Image</td>
+            <td class="blue">Last Row</td>
+        </tr>
+        <tr>
+            <td>Cell 2</td>
+            <td id="t-image" rowspan="2"><img src="your-image.jpg" alt="Your Image"></td>
+            <td>Cell 3</td>
+        </tr>
+        <tr>
+            <td>Cell 4</td>
+            <td>Cell 5</td>
+        </tr>
+    </table>
 </body>
-
 </html>
